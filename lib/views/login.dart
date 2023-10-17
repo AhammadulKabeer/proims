@@ -1,4 +1,4 @@
-import 'package:evaluationui/views/registration.dart';
+import 'package:evaluationui/views/otp.dart';
 import 'package:flutter/material.dart';
 
 class Login extends StatefulWidget {
@@ -101,7 +101,7 @@ class _LoginState extends State<Login> {
                 child: TextButton(
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const Registration(),
+                        builder: (context) => const Otpverification(),
                       ));
                     },
                     child: const Text(
